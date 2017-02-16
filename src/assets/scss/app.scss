@@ -50,7 +50,16 @@
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
-.top-bar {
+$main-bar-height: 6em;
+
+#main-bar {
     outline: solid #BBB .2em;
     background: url("/assets/img/background.png") repeat;
+    left: 0;
+    right: 0;
+    height: $main-bar-height;
+}
+
+main {
+    margin-top: 2em;
 }
