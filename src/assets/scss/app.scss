@@ -60,6 +60,21 @@ $main-bar-height: 6em;
     height: $main-bar-height;
 }
 
+#main-bar .top-bar-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
 main {
     margin-top: 2em;
+}
+
+@font-face {
+    font-family: "BTRGIT";
+    src: url("/assets/font/built tiling rg it.ttf");
+}
+
+p {
+    font-family: courier;
 }
