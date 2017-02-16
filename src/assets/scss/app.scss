@@ -50,21 +50,20 @@
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
-$main-bar-height: 6em;
-
 #main-bar {
     outline: solid #BBB .2em;
     background: url("../img/background.png") repeat;
     left: 0;
     right: 0;
-    height: $main-bar-height;
 }
 
-#main-bar .top-bar-right {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    font-size: 2rem;
+@include breakpoint(medium) {
+    #main-bar .top-bar-right {
+        font-size: 2rem;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
 }
 
 main {
