@@ -5,3 +5,12 @@
  - seems to currently work with 3 tabs but not 4?
 * TODO Video height
  - make video responsive
+* TODO Add email information
+ - or
+   - blank forum (template)
+   - plain mailto link
+   - sending email right from site
+     - requires typing return email, could lead to customer frustration
+
+* DONE Test bug
+ - ignore this
