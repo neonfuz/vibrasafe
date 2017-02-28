@@ -1,0 +1,5 @@
+* TODO Top bar sometimes sticks to bottom on mobile
+ - investigate
+ - happened when using browsersync and jumping around
+* TODO Nav tabs sometimes don't highlight properly
+ - seems to currently work with 3 tabs but not 4?
