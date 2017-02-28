@@ -7,6 +7,7 @@
       <ul id="main-nav" class="horizontal menu" data-animation-easing="swing">
         <li><a href="#overview">Overview</a></li>
         <li><a href="#product">Product Description</a></li>
+        <li><a href="#osha">Osha Regulation</a></li>
         <li><a href="#order">Order Now</a></li>
       </ul>
     </nav>
@@ -15,24 +16,35 @@
 
 <main>
   <section id="overview" data-magellan-target="overview" class="row">
+    <div class="medium-8 columns">
+      <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="medium-4 columns">
+      <img id="logo" alt="Logo" src="assets/img/logo.svg"/>
+    </div>
     <div class="large-12 columns">
-      <img id="logo" alt="Logo" src="assets/img/logo.svg" style="float:right; width:50%"/>
       <h1>Overview</h1>
-      {{> ipsum}}
+      {{> ipsum2}}
     </div>
     <hr/>
   </section>
   <section id="product" data-magellan-target="product" class="row">
     <div class="large-12 columns">
       <h1>Product</h1>
-      {{> ipsum}}
+      {{> ipsum2}}
     </div>
     <hr/>
   </section>
   <section id="order" data-magellan-target="order" class="row">
     <div class="large-12 columns">
+      <h1>Osha Regulation</h1>
+      {{> ipsum2}}
+    </div>
+  </section>
+  <section id="order" data-magellan-target="order" class="row">
+    <div class="large-12 columns">
       <h1>Order</h1>
-      {{> ipsum}}
+      {{> ipsum2}}
     </div>
   </section>
 </main>
