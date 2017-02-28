@@ -11,6 +11,3 @@
    - plain mailto link
    - sending email right from site
      - requires typing return email, could lead to customer frustration
-
-* DONE Test bug
- - ignore this
