@@ -16,17 +16,23 @@
 
 <main>
   <section id="overview" data-magellan-target="overview" class="row">
-    <div class="medium-8 columns">
-      <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
-    </div>
-    <div class="medium-4 columns">
-      <img id="logo" alt="Logo" src="assets/img/logo.svg"/>
-    </div>
-    <div class="large-12 columns">
+    <div class="medium-12 columns">
+
+      <div class="medium-8 columns">
+        <div class="responsive-embed widescreen">
+          <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <div class="medium-4 columns">
+        <img id="logo" alt="Logo" src="assets/img/logo.svg"/>
+      </div>
+
       <h1>Overview</h1>
       {{> ipsum2}}
     </div>
-    <hr/>
+  </section>
+  <hr/>
   </section>
   <section id="product" data-magellan-target="product" class="row">
     <div class="large-12 columns">
