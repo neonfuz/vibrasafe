@@ -1,15 +1,19 @@
-* TODO Top bar sometimes sticks to bottom on mobile
+* Todo
+** TODO Top bar sometimes sticks to bottom on mobile
  - investigate
  - happened when using browsersync and jumping around
-* DONE Nav tabs sometimes don't highlight properly
- - seems to currently work with 3 tabs but not 4?
-* DONE Video height
- - make video responsive
-* TODO Add email information
+** TODO Disable tab highlighting, or add stickiness on mobile
+ - having both makes no sense
+** TODO Add email information
  - or
    - blank forum (template)
    - plain mailto link
    - sending email right from site
      - requires typing return email, could lead to customer frustration
-* TODO Make tabs not overlap video when width gets smaller
+** TODO Make tabs not overlap video when width gets smaller
  - probably jquery measure width of tabs, calcualte when to add spacing
+* Done
+** DONE Nav tabs sometimes don't highlight properly
+  - seems to currently work with 3 tabs but not 4?
+** DONE Video height
+  - make video responsive
