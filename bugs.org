@@ -11,3 +11,5 @@
    - plain mailto link
    - sending email right from site
      - requires typing return email, could lead to customer frustration
+* TODO Make tabs not overlap video when width gets smaller
+ - probably jquery measure width of tabs, calcualte when to add spacing
