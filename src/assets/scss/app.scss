@@ -50,31 +50,31 @@
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
+
 #main-bar {
     outline: solid #BBB .2em;
     background: url("../img/background.png") repeat;
     left: 0;
     right: 0;
-}
 
-@include breakpoint(medium) {
-    #main-bar .top-bar-right {
-        font-size: 2rem;
-        position: absolute;
-        bottom: 0;
-        right: 0;
+    .top-bar-right {
+        .active {
+            background: white;
+        }
+        @include breakpoint(medium) {
+            font-size: 2rem;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
     }
 }
 
-#main-bar .top-bar-right {
-    .active {
-        background: white;
-    }
+// Layout
+main {
+    padding: 2rem;
 }
 
-#overview {
-    padding-top: 2em;
-}
 
 @font-face {
     font-family: "BTRGIT";
@@ -85,19 +85,28 @@ p {
     font-family: courier;
 }
 
-#logo {
-    width: 100%;
-    padding: 2em;
+#logo-container {
+    padding: 0;
+    margin-bottom: 1em;
+
+    #logo {
+        width: 100%;
+
+        @include breakpoint(small down) {
+            display: none;
+        }
+    }
 }
 
 #banner {
-    margin-bottom: 0 !important;
     margin-left: .5rem;
 }
 
-#video {
-    float: left;
-    padding: 1em;
-    width: 100% !important;
-    height: 100% !important;
+#video-container {
+    padding-left: 0;
+    padding-right: 2rem;
+}
+
+h1 {
+    margin-bottom: 0;
 }
