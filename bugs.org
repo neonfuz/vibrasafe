@@ -2,8 +2,6 @@
 ** TODO Top bar sometimes sticks to bottom on mobile
  - investigate
  - happened when using browsersync and jumping around
-** TODO Disable tab highlighting, or add stickiness on mobile
- - having both makes no sense
 ** TODO Add email information
  - or
    - blank forum (template)
@@ -17,3 +15,6 @@
   - seems to currently work with 3 tabs but not 4?
 ** DONE Video height
   - make video responsive
+** DONE Disable tab highlighting, or add stickiness on mobile
+ - having both makes no sense
+ - just made active style not apply on smallest size with css
