@@ -51,11 +51,39 @@
 @include motion-ui-animations;
 
 
+/////////////
+// Resources
+@font-face {
+    font-family: "BTRGIT";
+    src: url("../font/built tiling rg it.ttf");
+}
+
+/////////////////
+// Global styles
+p {
+    font-family: courier;
+}
+
+main {
+    padding: 2rem;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+////////////////
+// Page styling
+
 #main-bar {
     outline: solid #BBB .2em;
     background: url("../img/background.png") repeat;
     left: 0;
     right: 0;
+
+    .top-bar-left {
+        margin-left: .5rem;
+    }
 
     .top-bar-right {
         .active {
@@ -70,19 +98,9 @@
     }
 }
 
-// Layout
-main {
-    padding: 2rem;
-}
-
-
-@font-face {
-    font-family: "BTRGIT";
-    src: url("../font/built tiling rg it.ttf");
-}
-
-p {
-    font-family: courier;
+#video-container {
+    padding-left: 0;
+    padding-right: 2rem;
 }
 
 #logo-container {
@@ -96,17 +114,4 @@ p {
             display: none;
         }
     }
-}
-
-#banner {
-    margin-left: .5rem;
-}
-
-#video-container {
-    padding-left: 0;
-    padding-right: 2rem;
-}
-
-h1 {
-    margin-bottom: 0;
 }
